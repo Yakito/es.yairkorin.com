@@ -2,9 +2,6 @@
 layout: default
 ---
 
-{% include header.html %}
-{% include hero.html %}
-
 <div class="home">
   {% if site.posts.size > 0 %}
     <ul class="post-list">
@@ -22,6 +19,3 @@ layout: default
     <p>No posts found. Add some posts to the `_posts` directory to get started.</p>
   {% endif %}
 </div>
-
-{% include social.html %}
-{% include footer.html %}
